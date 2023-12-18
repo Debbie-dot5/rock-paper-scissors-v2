@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors game</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+
+  <button id="start-btn">Start Game</button>
+  <div id="show-container" class="container">
+
+    <h3>Rock Paper Scissors</h3>
+    <button onclick="
+    playRound('rock');
+     " class="btn"><img src="images/rock-emoji.png" class="move-img"></button>
+    <button onclick="playRound('Paper')" class="btn"><img src="images/paper-emoji.png" class="move-img"></button>
+    <button onclick="playRound('scissors')" class="btn"><img src="images/scissors-emoji.png" class="move-img"></button>
+
+    <p id="show-playround"></p>
+    <p id="show-your-score" class="shows-the-score"></p>
+
+    <p id="show-score"></p>
+    <button class="reset-btn" id="reset-score">Reset score</button>
+  </div>
+ 
+    
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
